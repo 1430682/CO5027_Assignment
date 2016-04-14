@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="CO5027_Assignment.masterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+
+            <!-- navigation that will show up to every pages-->
+    <div id="Headernav">
+            <ul>
+            <li><a href="Admin.aspx">Admin</a></li>
+            <li><a href="Login.aspx"> Login</a></li>
+            <li><a href="Contact.aspx">Contact</a></li>
+            <li><a href="Service.aspx"> Service</a></li>
+			<li><a href="Default.aspx"> About </a></li>
+			
+            
+			
+			
+
+                
+			</ul>
+        </div>
+
+        <img src="Images/custome-header.jpg" />
+
+        
+ 
+    </div>
+      
+        <!-- navigation that will show up to every pages-->
+        <div id="Navigation">
+            <ul>
+			<li><a href="Buffet.aspx"> Buffet </a></li>
+			<li><a href="Appetizer.aspx"> Appetizer</a></li>
+			<li><a href="SD.aspx">Side Dishes</a></li>
+			<li><a href="Dessert.aspx">Dessert</a></li>
+			
+			
+			</ul>
+            </div>
+
+        <!-- search engine -->
+        <div id="Searchbox1">
+            <div id="Serchbox2">
+                <form action="#" method="get">
+                    <input style="text" value="Search" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" class="txt_field" />
+                    <input type="submit" name="Search" value="Search" id="searchbutton" title="Search" class="submit_btn" />
+                </form>
+            </div>
+
+        </div>
+    <div>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+         <div id="Footer">&copy; Copyright 2016 |Royal Catering Service|
+    <br/>
+    <br/> 
+                     
+       <a href="http://validator.w3.org/check?uri=referer"> Validate HTML</a> |
+       <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+       <a href="http://achecker.ca/checker/?uri=referer">Check WCAG </a>
+    
+    </div>
+
+    
+    </form>
+</body>
+</html>
+
+
+
+   

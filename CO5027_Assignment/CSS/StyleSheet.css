@@ -1,0 +1,264 @@
+﻿body{
+background-color:ghostwhite;	
+}
+
+body html{
+	min-height:100%;
+}
+
+#wrap {
+	width: 900px;
+	margin: 5px auto;
+	padding-right:30%;
+	
+}
+
+/* design for header navigations*/
+#Headernav ul{
+list-style-type:none;
+width:900px;
+height:100%;
+padding-left:30%;
+}
+
+#Headernav ul li{
+float:right;
+
+}
+
+#Headernav ul li a{
+	width:10em;
+	height:30px;
+	display:inline;
+	text-decoration:none;
+	color: #FA3804;
+	text-align:center;
+	font-family:Neou;
+	font-size:12px;
+	padding-left: 10px;
+	padding-right:10px;
+	
+}
+
+#Headernav ul li a:hover {
+		color:black;
+	}
+
+#header img	{
+	width:1330px;
+	height:300px;	
+	padding-right:5%;
+}
+
+/*design for navigation bellow header picture*/
+#Navigation ul{
+list-style-type:none;
+width:900px;
+height:100%;
+padding-left: 15%;
+}
+
+#Navigation ul li{
+float:left;
+padding-left: 10%;
+}
+
+#Navigation ul li a{
+	width:10em;
+	height:30px;
+	display:inline;
+	border-right: solid white 2px;
+	text-decoration:none;
+	color: #FA3804;
+	text-align:center;
+	font-family:Neou;
+	font-weight:bolder;
+	padding-left: 20px;
+	padding-right:20px;
+	
+}
+
+	#Navigation ul li a:hover {
+		color:black;
+	}
+
+#lineheader img{
+	width:1086px;
+	height:30px;
+	padding-left:13.3%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+#ImageContent td img{
+
+ width:300px;
+ height:300px;
+ padding-left:35px;
+ 
+ }
+#ImageContent{
+	margin-left:200px;
+
+ }
+
+#Appetizer img{
+	width:300px;
+	height:300px;
+	float:right;
+	margin-top:150px;
+	margin-bottom:20px;
+	margin-right:55px;
+}
+
+#Dessert img{
+	width:300px;
+	height:300px;
+	float:right;
+	margin-top:70px;
+	margin-bottom:20px;
+	margin-right:55px;
+}
+
+/*design button for view more*/
+#Button1 ul li a {
+color: black;
+text-decoration: none;
+
+}
+
+
+#Button1 ul li {
+  padding-top:10px;
+  padding-left:10px;
+  margin-left:20%;
+  height:30px;
+  width:100px;
+  background-color: white;
+  border: 2px solid #666;
+  color:#000;
+  text-decoration:none;
+  list-style-type:none;
+  float:left;
+	font-family:'basic title font';
+	font-weight: 600;
+	font-size:15px;
+	border: 2px solid BLACK;
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+  color:#f00;
+}
+
+a:active {
+  color:#f00;
+}
+a:focus {
+  color:#f00;
+}
+
+#Service img{
+	height:500px;
+	width:1100px;
+	padding-left:13%;
+	margin-top: 5%;
+	 
+}
+/*deisgn for search box*/
+#Searchbox1{
+	float:right;
+	padding: 0% 2% 2%;
+}
+
+#Searchbox2{
+	float:left;
+	display:block;
+	margin-right:7px;
+	height:24px;
+	line-height:24px;
+	width:280px;
+	color:darkorange;
+	font-size:12px;
+	font-variant:normal;
+	border:1px solid #FA3804;
+	background: #fff;
+}
+#Searchbox2 .submit_btn{
+	float:right;
+	display:block;
+	color:#FA3804;
+	height:26px;
+	font-size:11px;
+	cursor:pointer;
+	border: 1px solid #333;
+	border-radius:6px;
+
+}
+
+#Searchbox2 .submit_btn :hover{
+	background-color:aqua;
+}
+
+
+
+#submit
+{       
+    background-color: #6cbb6b;
+    background-image: linear-gradient(#95d788, #6cbb6b);
+    border-radius: 3px 50px 50px 3px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7eba7c #578e57 #447d43;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+#submit:hover {       
+    background-color: #95d788;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+}   
+
+#submit:active {       
+    background: #95d788;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
+
+
+
+#Footer{
+position: relative;
+bottom:0;
+clear:both;
+padding:initial;
+border-top:3px #FA3804 solid;
+width:100%;
+text-align:center;
+color:black;
+text-decoration:none;
+
+}
+
+#Footer a{
+	color:black;
+	background-color:white;
+	border:2px solid black;
+}
+
+
+

@@ -1,0 +1,136 @@
+﻿body{
+background-color:ghostwhite;	
+}
+
+body html{
+	min-height:100%;
+}
+
+        .auto-style2 {
+            width: 544px;
+            height: 222px;
+        }
+        .auto-style3 {
+            margin-left: 0px;
+        }
+        .auto-style4 {
+            width: 66px;
+        }
+        .auto-style5 {
+            width: 581px;
+        }
+    
+#wrap {
+	width: 900px;
+	margin: 5px auto;
+	padding-right:30%;
+	
+}
+
+#header img	{
+	width:1335px;
+	height:300px;	
+	padding-right:5%;
+}
+#Address h1{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-bottom:solid;
+	border-bottom-color: #e9e7e7;
+	margin-top: 10%;
+	
+}
+
+#Address p{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:15px;
+	font-weight:100;
+	color:black;	
+}
+
+#Address img{
+	height:40px;
+	width: 40px;
+}
+
+#Contact h1{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style:normal;
+	border-bottom:solid;
+	border-bottom-color: #e9e7e7;
+	margin-left:10px;
+}
+#Contact p{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:15px;
+	font-weight:100;
+	color:black;	
+}
+
+#Contact img{
+	height:40px;
+	width: 40px;
+	padding-left:5px;
+}
+
+ #Text_boxes h1{
+
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style:normal;
+	border-bottom:solid;
+	border-bottom-color: #e9e7e7;
+	margin-left:10px;
+}
+
+ #Text_boxes img{
+	height:40px;
+	width: 40px;
+	padding-left:5px;
+}
+
+ .Textbox
+
+
+	#Contact{
+		font-family: Neou;
+		font-size: 14px;
+		font-style:oblique;
+		text-align:left;
+	}
+
+	#table {
+		border-style:solid;
+		border-width:3px;
+		color:dimgrey;
+	}
+	/*design for button send*/
+ #Button2{
+  background-color: white;
+  border: 2px solid #666;
+  color:#000;
+  font-family:'basic title font';
+  font-weight: 600;
+  font-size:15px;
+  border: 2px solid BLACK;
+  color: #000;
+	}
+
+ /*design for google map*/
+ #map{
+	 overflow:hidden;
+	 height:500px;
+	 width:500px;
+	 float:right;
+	 padding-left: 4%;
+	 margin: 3% -40% 0% 0%;
+	background-image:url(staticmap.JPG);
+	
+	 
+	 
+	 
+	 
+ }#gmap_canvas{
+height:500px;
+width:500px;
+
+
+  }
