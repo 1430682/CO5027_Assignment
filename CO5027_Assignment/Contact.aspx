@@ -1,7 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="CO5027_Assignment.Contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpage.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="CO5027_Assignment.contact3" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <link href="Contact.css" rel="stylesheet" type="text/css" media="screen" />
-    
+ <link href="Contact.css" rel="stylesheet" type="text/css" media="screen" />
+
     <div id="wrap">
     
     <div id="header">
@@ -41,7 +42,7 @@
 
         </div>
 
-        <!-- Feedback message box-->   
+          <!-- Feedback message box-->   
         
             <div id ="Text_boxes">
             <h1 class="auto-style5">Feedback <img src="Images/minicons-82-512.png" /></h1> <!-- Image retrieved from www.iconfinder.com -->
@@ -56,7 +57,9 @@
                         Name
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox6" runat="server" Width="256px" CssClass="auto-style3"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Name is required to fill" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
+
                     </td>
                 </tr>
                 <tr>
@@ -64,7 +67,8 @@
                         Email
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox7" runat="server" Width="264px" CssClass="Textbox"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Email is required to fill" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -72,7 +76,8 @@
                         Subject
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server" Width="179px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Fill is if necessary" ControlToValidate="TextBox3"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -80,7 +85,7 @@
                         Message
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox9" runat="server" Height="83px" Width="343px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" Height="61px" TextMode="MultiLine" Width="204px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -88,7 +93,8 @@
                     </td>
                     <td>
                         
-                        <asp:Button ID="Button2" runat="server" Text="Send" />
+                        <asp:Button ID="btnsend" runat="server" OnClick="ButtonSend_click" Text="Send" />
+                        <asp:Literal ID="Literal1" runat="server"></asp:Literal>
                     </td>
                 </tr>
             </table>

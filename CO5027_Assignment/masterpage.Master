@@ -51,7 +51,7 @@
         <div id="Searchbox1">
             <div id="Serchbox2">
                 <form action="#" method="get">
-                    <input style="text" value="Search" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" class="txt_field" />
+                    <input style:"text" value="Search" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" class="txt_field" />
                     <input type="submit" name="Search" value="Search" id="searchbutton" title="Search" class="submit_btn" />
                 </form>
             </div>
